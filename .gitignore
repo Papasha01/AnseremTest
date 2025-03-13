@@ -1,0 +1,56 @@
+# Сборка и временные файлы .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.pdb
+*.vs/
+*.vscode/
+*.sln.docstates
+
+# Файлы сборки и публикации
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Pp]ublish/
+
+# NuGet пакеты
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Файлы конфигурации с секретами
+appsettings.*.json  # Исключение локальных конфигураций (например, appsettings.Development.json)
+!appsettings.json   # Но оставляем основной appsettings.json
+
+# Среды разработки
+[Dd]ebugPublic/
+[Tt]est[Rr]esult*/
+[Rr]eleasePublic/
+
+# Node.js (если используется в проекте)
+node_modules/
+*.lock.json
+dist/
+build/
+
+# Временные файлы от тестов или других инструментов
+coverage/
+*.coverage
+*.coveragexml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
